@@ -28,5 +28,5 @@ Then, fetch a secret...
 
 ```python
 SECRET_ID = "projects/PROJECT_ID/secrets/SECRET_NAME/versions/VERSION"
-data = secret.get_key_data(SECRET_ID)
+data = secret.resource_id(SECRET_ID)
 ```
