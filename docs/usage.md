@@ -9,7 +9,7 @@ Import the service.
 from cloudsecretstore import SecretStore
 ```
 
-See the "Quick start" section in the README to set your application default credentials.
+See the "Quick start" section in the [README](README.md) to set your application default credentials.
 
 Initialize the service and allow it to find the credentials from the environment.
 
