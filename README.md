@@ -37,4 +37,4 @@ Then, use `gcloud` to set the credentials by activating the service account.
 gcloud auth activate-service-account --key_file=path/to/keyfile.json
 ```
 
-Continue with `docs/usage.md`.
+Continue to [docs/usage.md](docs/usage.md).
