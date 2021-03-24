@@ -27,6 +27,6 @@ secret = SecretStore(path_to_creds)
 Then, fetch a secret...
 
 ```python
-SECRET_ID = "projects/PROJECT_ID/secrets/SECRET_NAME/versions/VERSION"
-data = secret.resource_id(SECRET_ID).fetch()
+RESOURCE_ID = "projects/PROJECT_ID/secrets/SECRET_NAME/versions/VERSION"
+data = secret.resource_id(RESOURCE_ID).fetch()
 ```
