@@ -11,5 +11,6 @@ setup(
     description="Fetch secrets stored in Google Cloud Secret Manager.",
     author="Lewis Rodgers",
     author_email="lrodgers04@gmail.com",
-    packages=["cloudsecretstore"]
+    packages=["secretstore"],
+    install_requires=["google-auth", "google-cloud-secret-manager"]
 )
